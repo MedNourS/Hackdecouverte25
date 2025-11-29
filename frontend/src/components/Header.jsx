@@ -1,5 +1,4 @@
 import React from "react";
-import Nav from "./nav.jsx";
 import Logo from "../../public/lightLogo.png";
 
 function Header() {
@@ -7,12 +6,6 @@ function Header() {
     <header className="header">
 
         <img src="/lightLogo.png" alt="Logo" className="logo" />
-
-      <div className="header-top">
-        <h1 className="slogan">A MINY solution to your study session</h1>
-      </div>
-
-      <Nav />
 
     </header>
   );
