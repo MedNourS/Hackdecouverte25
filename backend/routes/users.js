@@ -32,7 +32,12 @@ router.delete('/', (req, res) => {
 });
 
 router.get('/search', (req, res) => {
-    
+    const { userName } = req.body;
+    if (!userName) return res.sendStatus(400);
+    for (let userID in users) {
+        if (String(users[userID].userName) === userName) res.send({userID: userID});
+    }
+    res.sendStatus(404);
 });
 
 module.exports = router;
