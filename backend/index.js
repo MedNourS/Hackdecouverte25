@@ -11,9 +11,11 @@ app.use((req, res, next) => {
 // Get the routers
 const usersRouter = require('./routes/users');
 const groupsRouter = require('./routes/groups');
+const studySessionsRouter = require('./routes/studySession');
 
 // Use the routers
-app.use('/users', usersRouter);
-app.use('/groups', groupsRouter);
+app.use('/user', usersRouter);
+app.use('/group', groupsRouter);
+app.use('/session', studySessionsRouter);
 
 app.listen(port);

@@ -1,7 +1,12 @@
 const express = require('express');
 const router = express.Router();
 
-const users = {};
+const users = {
+    "0f03e050-4e48-4249-a5e1-e5ecdd067d5d": {
+        userName: "Administrator",
+        groups: []
+    }
+};
 
 function exists(userName) {
     for (let userID in users) {
@@ -20,7 +25,7 @@ router.post('/', (req, res) => {
     if (exists(userName)) return res.status(403).send('Cannot make multiple users with the same username');
 
     users[crypto.randomUUID()] = {
-        userName: userName,
+        userName,
         groups: []
     }
     res.sendStatus(200);
@@ -39,7 +44,7 @@ router.get('/search', (req, res) => {
     const { userName } = req.body;
     if (!userName) return res.sendStatus(400);
     for (let userID in users) {
-        if (String(users[userID].userName) === userName) res.send({userID: userID});
+        if (String(users[userID].userName) === userName) res.send({ userID: userID });
     }
     res.sendStatus(404);
 });
