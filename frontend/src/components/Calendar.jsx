@@ -1,15 +1,10 @@
-//import { useState } from "react";
-//import reactLogo from "./assets/react.svg";
-//import viteLogo from "/vite.svg";
-//import "/.css";
-import CalendarHeader from "./subComponents/CalendarHeader.jsx";
+import React from "react";
 
-function Calendar() {
-  return (
-    <>
-      <CalendarHeader />
-    </>
-  );
+function Calendar(){
+    return(
+    <h1>Calendar</h1>
+)
+    
 }
 
 export default Calendar;
