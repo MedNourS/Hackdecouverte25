@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from "./Nav.jsx";
+import Nav from "./nav.jsx";
 import Logo from "../../public/lightLogo.png";
 
 function Header() {
