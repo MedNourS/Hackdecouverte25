@@ -8,6 +8,10 @@ app.use((req, res, next) => {
     next();
 });
 
+// Get the routers
+const usersRouter = require('./routes/users');
 
+// Use the routers
+app.use('/users', usersRouter);
 
 app.listen(port);
