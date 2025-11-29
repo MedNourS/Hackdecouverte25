@@ -1,0 +1,11 @@
+.cell {
+  background-color: grey;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100%;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
