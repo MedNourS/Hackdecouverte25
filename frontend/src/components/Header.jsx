@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from "./nav.jsx";
+import Nav from "./Nav.jsx";
 import Logo from "../../public/lightLogo.png";
 
 function Header() {
@@ -13,7 +13,6 @@ function Header() {
       </div>
 
       <Nav />
-
     </header>
   );
 }
