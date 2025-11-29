@@ -10,8 +10,10 @@ app.use((req, res, next) => {
 
 // Get the routers
 const usersRouter = require('./routes/users');
+const groupsRouter = require('./routes/groups');
 
 // Use the routers
 app.use('/users', usersRouter);
+app.use('/groups', groupsRouter);
 
 app.listen(port);
