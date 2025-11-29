@@ -3,9 +3,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
   padding: 10px 20px;
   font-family: Arial, sans-serif;
+  border-bottom: 2px solid black;
 }
 
 
@@ -24,13 +24,11 @@
   font-weight: bold;
   padding: 6px 12px;
   border-radius: 4px;
-  transition: background-color 0.2s ease;
 }
 
 
 .nav-bar ul li:hover{
-  background-color: black;
-  color: #fff;
+  color: black;;
 }
 
 
