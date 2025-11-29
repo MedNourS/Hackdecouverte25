@@ -36,7 +36,7 @@ function CalendarHeader() {
     }
   };
   const switchMonth = (direction) => {
-    setDate(new Date(date.setMonth(date.getMonth() + direction)));
+    setDate(new Date(date.getFullYear(), date.getMonth() + direction, 1));
   };
 
   return (
