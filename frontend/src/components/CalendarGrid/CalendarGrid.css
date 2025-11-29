@@ -1,0 +1,14 @@
+.cell {
+  background-color: grey;
+  border: 1px solid black;
+  border-radius: 5px;
+  flex: 1;
+}
+.empty-cell {
+  flex: 1;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

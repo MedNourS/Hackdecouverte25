@@ -1,0 +1,304 @@
+
+> hackdecouverte25@0.0.0 dev
+> vite
+
+Port 5173 is in use, trying another one...
+
+  VITE v7.2.4  ready in 139 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: use --host to expose
+11:59:03 AM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+11:59:03 AM [vite] Internal server error: /home/kozachok/Hackdecouverte25/frontend/src/components/subComponents/CalendarHeader.jsx: Missing semicolon. (36:7)
+
+  34 |     }
+  35 |   };
+> 36 |   conts switchMonth => (direction) {
+     |        ^
+  37 |     setDate(new Date().setMonth(date.getMonth + direction));
+  38 |   }
+  39 |
+  Plugin: vite:react-babel
+  File: /home/kozachok/Hackdecouverte25/frontend/src/components/subComponents/CalendarHeader.jsx:36:7
+  34 |      }
+  35 |    };
+  36 |    conts switchMonth => (direction) {
+     |         ^
+  37 |      setDate(new Date().setMonth(date.getMonth + direction));
+  38 |    }
+      at constructor (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:367:19)
+      at JSXParserMixin.raise (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:6624:19)
+      at JSXParserMixin.semicolon (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:6920:10)
+      at JSXParserMixin.parseExpressionStatement (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:13361:10)
+      at JSXParserMixin.parseStatementContent (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12975:19)
+      at JSXParserMixin.parseStatementLike (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12843:17)
+      at JSXParserMixin.parseStatementListItem (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12823:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:13392:61)
+      at JSXParserMixin.parseBlockBody (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:13385:10)
+      at JSXParserMixin.parseBlock (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:13373:10)
+      at JSXParserMixin.parseFunctionBody (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12174:24)
+      at JSXParserMixin.parseFunctionBodyAndFinish (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12160:10)
+      at /home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:13521:12
+      at JSXParserMixin.withSmartMixTopicForbiddingContext (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12477:14)
+      at JSXParserMixin.parseFunction (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:13520:10)
+      at JSXParserMixin.parseFunctionStatement (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:13201:17)
+      at JSXParserMixin.parseStatementContent (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12867:21)
+      at JSXParserMixin.parseStatementLike (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12843:17)
+      at JSXParserMixin.parseModuleItem (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12820:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:13392:36)
+      at JSXParserMixin.parseBlockBody (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:13385:10)
+      at JSXParserMixin.parseProgram (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12698:10)
+      at JSXParserMixin.parseTopLevel (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12688:25)
+      at JSXParserMixin.parse (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:14568:25)
+      at parse (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:14602:38)
+      at parser (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/home/kozachok/Hackdecouverte25/frontend/node_modules/gensync/index.js:261:32)
+      at /home/kozachok/Hackdecouverte25/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/kozachok/Hackdecouverte25/frontend/node_modules/gensync/index.js:223:11)
+      at /home/kozachok/Hackdecouverte25/frontend/node_modules/gensync/index.js:189:28
+      at /home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /home/kozachok/Hackdecouverte25/frontend/node_modules/gensync/index.js:113:33
+      at step (/home/kozachok/Hackdecouverte25/frontend/node_modules/gensync/index.js:287:14)
+      at /home/kozachok/Hackdecouverte25/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/kozachok/Hackdecouverte25/frontend/node_modules/gensync/index.js:223:11)
+11:59:09 AM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+11:59:09 AM [vite] Internal server error: /home/kozachok/Hackdecouverte25/frontend/src/components/subComponents/CalendarHeader.jsx: Missing initializer in const declaration. (36:19)
+
+  34 |     }
+  35 |   };
+> 36 |   const switchMonth => (direction) {
+     |                    ^
+  37 |     setDate(new Date().setMonth(date.getMonth + direction));
+  38 |   };
+  39 |
+  Plugin: vite:react-babel
+  File: /home/kozachok/Hackdecouverte25/frontend/src/components/subComponents/CalendarHeader.jsx:36:19
+  34 |      }
+  35 |    };
+  36 |    const switchMonth => (direction) {
+     |                     ^
+  37 |      setDate(new Date().setMonth(date.getMonth + direction));
+  38 |    };
+      at constructor (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:367:19)
+      at JSXParserMixin.raise (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:6624:19)
+      at JSXParserMixin.parseVar (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:13467:16)
+      at JSXParserMixin.parseVarStatement (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:13306:10)
+      at JSXParserMixin.parseStatementContent (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12927:23)
+      at JSXParserMixin.parseStatementLike (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12843:17)
+      at JSXParserMixin.parseStatementListItem (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12823:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:13392:61)
+      at JSXParserMixin.parseBlockBody (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:13385:10)
+      at JSXParserMixin.parseBlock (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:13373:10)
+      at JSXParserMixin.parseFunctionBody (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12174:24)
+      at JSXParserMixin.parseFunctionBodyAndFinish (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12160:10)
+      at /home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:13521:12
+      at JSXParserMixin.withSmartMixTopicForbiddingContext (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12477:14)
+      at JSXParserMixin.parseFunction (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:13520:10)
+      at JSXParserMixin.parseFunctionStatement (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:13201:17)
+      at JSXParserMixin.parseStatementContent (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12867:21)
+      at JSXParserMixin.parseStatementLike (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12843:17)
+      at JSXParserMixin.parseModuleItem (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12820:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:13392:36)
+      at JSXParserMixin.parseBlockBody (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:13385:10)
+      at JSXParserMixin.parseProgram (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12698:10)
+      at JSXParserMixin.parseTopLevel (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12688:25)
+      at JSXParserMixin.parse (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:14568:25)
+      at parse (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:14602:38)
+      at parser (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/home/kozachok/Hackdecouverte25/frontend/node_modules/gensync/index.js:261:32)
+      at /home/kozachok/Hackdecouverte25/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/kozachok/Hackdecouverte25/frontend/node_modules/gensync/index.js:223:11)
+      at /home/kozachok/Hackdecouverte25/frontend/node_modules/gensync/index.js:189:28
+      at /home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /home/kozachok/Hackdecouverte25/frontend/node_modules/gensync/index.js:113:33
+      at step (/home/kozachok/Hackdecouverte25/frontend/node_modules/gensync/index.js:287:14)
+      at /home/kozachok/Hackdecouverte25/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/kozachok/Hackdecouverte25/frontend/node_modules/gensync/index.js:223:11)
+11:59:45 AM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+12:01:07 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+12:19:18 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+12:19:58 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+12:24:13 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+12:24:46 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+12:24:51 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+12:25:09 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+12:34:02 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+12:34:46 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+12:35:08 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+12:36:13 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+12:36:31 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+12:46:04 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+12:47:25 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+12:48:22 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+12:49:36 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+12:49:49 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+12:50:55 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+12:51:21 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+12:51:46 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+12:51:57 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+12:52:04 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+12:53:33 PM [vite] (client) hmr update /src/components/Calendar.jsx
+12:54:30 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+12:55:18 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+12:55:45 PM [vite] (client) hmr update /src/components/Calendar.css
+12:57:40 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+12:58:01 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+12:58:18 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+12:58:59 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+12:59:24 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+12:59:24 PM [vite] Internal server error: /home/kozachok/Hackdecouverte25/frontend/src/components/subComponents/CalendarHeader.jsx: Unexpected token, expected "," (40:24)
+
+  38 |     const date = new Date().setMonth(new Date(date).getMonth() + direction);
+  39 |     console.log(
+> 40 |       date.getFullYear();
+     |                         ^
+  41 |     );
+  42 |     setDate(new Date().setMonth(new Date(date).getMonth() + direction));
+  43 |   };
+  Plugin: vite:react-babel
+  File: /home/kozachok/Hackdecouverte25/frontend/src/components/subComponents/CalendarHeader.jsx:40:24
+  38 |      const date = new Date().setMonth(new Date(date).getMonth() + direction);
+  39 |      console.log(
+  40 |        date.getFullYear();
+     |                          ^
+  41 |      );
+  42 |      setDate(new Date().setMonth(new Date(date).getMonth() + direction));
+      at constructor (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:367:19)
+      at JSXParserMixin.raise (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:6624:19)
+      at JSXParserMixin.unexpected (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:6644:16)
+      at JSXParserMixin.expect (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:6924:12)
+      at JSXParserMixin.parseCallExpressionArguments (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:11307:14)
+      at JSXParserMixin.parseCoverCallAndAsyncArrowHead (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:11250:29)
+      at JSXParserMixin.parseSubscript (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:11184:19)
+      at JSXParserMixin.parseSubscripts (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:11158:19)
+      at JSXParserMixin.parseExprSubscripts (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:11149:17)
+      at JSXParserMixin.parseUpdate (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:11130:21)
+      at JSXParserMixin.parseMaybeUnary (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:11110:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:10963:61)
+      at JSXParserMixin.parseExprOps (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:10968:23)
+      at JSXParserMixin.parseMaybeConditional (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:10945:23)
+      at JSXParserMixin.parseMaybeAssign (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:10895:21)
+      at JSXParserMixin.parseExpressionBase (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:10848:23)
+      at /home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:10844:39
+      at JSXParserMixin.allowInAnd (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12495:16)
+      at JSXParserMixin.parseExpression (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:10844:17)
+      at JSXParserMixin.parseStatementContent (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12971:23)
+      at JSXParserMixin.parseStatementLike (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12843:17)
+      at JSXParserMixin.parseStatementListItem (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12823:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:13392:61)
+      at JSXParserMixin.parseBlockBody (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:13385:10)
+      at JSXParserMixin.parseBlock (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:13373:10)
+      at JSXParserMixin.parseFunctionBody (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12174:24)
+      at JSXParserMixin.parseArrowExpression (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12149:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:11759:12)
+      at JSXParserMixin.parseExprAtom (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:11395:23)
+      at JSXParserMixin.parseExprAtom (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:4793:20)
+      at JSXParserMixin.parseExprSubscripts (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:11145:23)
+      at JSXParserMixin.parseUpdate (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:11130:21)
+      at JSXParserMixin.parseMaybeUnary (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:11110:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:10963:61)
+      at JSXParserMixin.parseExprOps (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:10968:23)
+      at JSXParserMixin.parseMaybeConditional (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:10945:23)
+      at JSXParserMixin.parseMaybeAssign (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:10895:21)
+      at /home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:10864:39
+      at JSXParserMixin.allowInAnd (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12495:16)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:10864:17)
+      at JSXParserMixin.parseVar (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:13460:91)
+      at JSXParserMixin.parseVarStatement (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:13306:10)
+      at JSXParserMixin.parseStatementContent (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12927:23)
+      at JSXParserMixin.parseStatementLike (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12843:17)
+      at JSXParserMixin.parseStatementListItem (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12823:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:13392:61)
+      at JSXParserMixin.parseBlockBody (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:13385:10)
+      at JSXParserMixin.parseBlock (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:13373:10)
+      at JSXParserMixin.parseFunctionBody (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12174:24)
+      at JSXParserMixin.parseFunctionBodyAndFinish (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12160:10)
+12:59:28 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+12:59:52 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+1:02:34 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+1:02:48 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+1:03:41 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+1:04:49 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+1:05:00 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+1:06:02 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+1:07:00 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+1:07:28 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+1:10:19 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+1:13:37 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+1:15:06 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+1:16:15 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+1:17:01 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+1:20:13 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+1:21:17 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+1:21:24 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+1:21:24 PM [vite] Internal server error: /home/kozachok/Hackdecouverte25/frontend/src/components/subComponents/CalendarHeader.jsx: 'import' and 'export' may only appear at the top level. (57:0)
+
+  55 | }
+  56 |
+> 57 | export default CalendarHeader;
+     | ^
+  58 |
+  Plugin: vite:react-babel
+  File: /home/kozachok/Hackdecouverte25/frontend/src/components/subComponents/CalendarHeader.jsx:57:0
+  55 |  }
+  56 |  
+  57 |  export default CalendarHeader;
+     |  ^
+  58 |  
+      at constructor (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:367:19)
+      at JSXParserMixin.raise (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:6624:19)
+      at JSXParserMixin.parseStatementContent (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12947:18)
+      at JSXParserMixin.parseStatementLike (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12843:17)
+      at JSXParserMixin.parseStatementListItem (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12823:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:13392:61)
+      at JSXParserMixin.parseBlockBody (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:13385:10)
+      at JSXParserMixin.parseBlock (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:13373:10)
+      at JSXParserMixin.parseFunctionBody (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12174:24)
+      at JSXParserMixin.parseFunctionBodyAndFinish (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12160:10)
+      at /home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:13521:12
+      at JSXParserMixin.withSmartMixTopicForbiddingContext (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12477:14)
+      at JSXParserMixin.parseFunction (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:13520:10)
+      at JSXParserMixin.parseFunctionStatement (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:13201:17)
+      at JSXParserMixin.parseStatementContent (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12867:21)
+      at JSXParserMixin.parseStatementLike (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12843:17)
+      at JSXParserMixin.parseModuleItem (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12820:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:13392:36)
+      at JSXParserMixin.parseBlockBody (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:13385:10)
+      at JSXParserMixin.parseProgram (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12698:10)
+      at JSXParserMixin.parseTopLevel (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:12688:25)
+      at JSXParserMixin.parse (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:14568:25)
+      at parse (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/parser/lib/index.js:14602:38)
+      at parser (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/home/kozachok/Hackdecouverte25/frontend/node_modules/gensync/index.js:261:32)
+      at /home/kozachok/Hackdecouverte25/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/kozachok/Hackdecouverte25/frontend/node_modules/gensync/index.js:223:11)
+      at /home/kozachok/Hackdecouverte25/frontend/node_modules/gensync/index.js:189:28
+      at /home/kozachok/Hackdecouverte25/frontend/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /home/kozachok/Hackdecouverte25/frontend/node_modules/gensync/index.js:113:33
+      at step (/home/kozachok/Hackdecouverte25/frontend/node_modules/gensync/index.js:287:14)
+      at /home/kozachok/Hackdecouverte25/frontend/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/kozachok/Hackdecouverte25/frontend/node_modules/gensync/index.js:223:11)
+1:21:32 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+1:21:35 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
+1:26:25 PM [vite] (client) hmr update /src/components/subComponents/CalendarHeader.jsx
