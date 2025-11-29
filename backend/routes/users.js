@@ -3,8 +3,11 @@ const router = express.Router();
 
 const users = {};
 
-function searchFor(req, res, userName) {
-
+function exists(userName) {
+    for (let userID in users) {
+        if (String(users[userID].userName) === userName) return true;
+    }
+    return false;
 }
 
 router.get('/', (req, res) => {
@@ -14,6 +17,7 @@ router.get('/', (req, res) => {
 router.post('/', (req, res) => {
     const { userName } = req.body;
     if (!userName) return res.sendStatus(400);
+    if (exists(userName)) return res.status(403).send('Cannot make multiple users with the same username');
 
     users[crypto.randomUUID()] = {
         userName: userName,
