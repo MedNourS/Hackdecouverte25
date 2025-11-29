@@ -7,7 +7,6 @@ import CalendarHeader from "./subComponents/CalendarHeader.jsx";
 function Calendar() {
   return (
     <>
-      <h1>Hello World</h1>
       <CalendarHeader />
     </>
   );
